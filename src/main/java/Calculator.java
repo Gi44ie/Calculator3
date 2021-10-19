@@ -21,7 +21,7 @@ public class Calculator {
                 int result= Operation.solve(num11, num22, oper);
                 System.out.printf("Результат равен %d", result);
             }
-            else { throw new RuntimeException("");}
+            else { throw new RuntimeException("Числа должны быть от 1 до 10");}
         }
         catch (Exception ex) {
             List<RomanNum> romanNumList= RomanNum.getValues();
